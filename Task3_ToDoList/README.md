@@ -1,35 +1,64 @@
-# Password Generator
+# To-Do List Application
 
-A simple Password Generator developed using Python.
+## Description
+
+A simple command-line To-Do List application built using Python. This program allows users to manage their daily tasks by adding, viewing, and deleting tasks through an interactive menu system.
 
 ## Features
 
-- Generates random passwords
-- User can choose password length
-- Includes:
-  - Uppercase letters (A-Z)
-  - Lowercase letters (a-z)
-  - Numbers (0-9)
-  - Special characters (@, #, $, %, etc.)
+* Add new tasks
+* View all tasks
+* Delete existing tasks
+* Menu-driven interface
+* Exit option to close the application
 
-## Technology Used
+## Technologies Used
 
-- Python
+* Python
+
+## How It Works
+
+The application displays a menu with different options:
+
+1. Add Task
+2. View Tasks
+3. Delete Task
+4. Exit
+
+Users can select an option by entering the corresponding number.
 
 ## How to Run
 
-1. Open terminal
-2. Run the following command:
-
 ```bash
-python password_generator.py
+python todo.py
 ```
-
-3. Enter desired password length
-4. Generated password will be displayed
 
 ## Example
 
-Enter password length: 10
+```text
+----- TO DO LIST -----
 
-Generated Password: A@7kP#9xL2
+1. Add Task
+2. View Tasks
+3. Delete Task
+4. Exit
+
+Enter your choice: 1
+Enter task: Complete Python Project
+Task Added!
+
+Enter your choice: 2
+['Complete Python Project']
+```
+
+## Learning Concepts Used
+
+* Lists
+* Loops
+* Conditional Statements (if-elif)
+* User Input
+* List Methods (.append() and .remove())
+
+## Author
+
+Internship Task - CodSoft
